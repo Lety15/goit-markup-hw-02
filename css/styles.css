@@ -122,11 +122,11 @@ text-decoration:none;
     width: 1600px;
     height: 600px;
    flex-shrink: 0;
-  display:flex;
+   display:flex;
    text-align: center;
    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+   align-items: center;
+   flex-direction: column;
  
     
   }
@@ -179,6 +179,8 @@ text-transform: uppercase;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
+    main-button:hover,
+    main-button:focus,
 
   }
   .section{
@@ -280,11 +282,9 @@ text-transform: uppercase;
   }
   .team-member{
     
-  
     margin-top:47px;
-    
     text-align: center;
-    
+    justify-content: center;
     width: 270px;
     height: 368px;
     flex-shrink: 0;
@@ -302,7 +302,7 @@ box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0
    background: #F5F4FA;
    flex-direction: column;
    text-align: center;
-    display: flex;
+   display:flex;
    justify-content: center;
    align-items: center;
    margin-top: 94px;
@@ -432,6 +432,9 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
     flex-shrink: 0;
     padding-left: 225px;
     padding-top: 60px;
+    align-content: center;
+ 
+   
     
   }
   .footer-contacts {
@@ -478,3 +481,5 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
   .adress:focus {
     color: var(--brand-color);
   }
+
+ 
